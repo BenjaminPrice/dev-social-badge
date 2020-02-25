@@ -8,9 +8,47 @@ A social badge that pulls your reaction count for an article that’s been share
 
 ---
 
+## CDNJS
+
+Help me get this hosted on CDNJS by giving the repository a `star`. I require at least 800 stars to submit to CDNJS.
+
+---
+
 ## Installation and Usage
 
-To come, after accepted onto CDNJS.
+### Adding the script tag to the HEAD
+
+```html
+    <!-- Place script tag before the end of the head tag -->
+    <script src="https://unpkg.com/dev-social-badge@0.1.0/dist/dev-social-badge.min.js"></script>
+```
+
+### Adding the devbadge and script tags to the BODY
+_If you're using a template for your blog posts, I suggest adding this to the template file for your blog posts - not your main site layout._ This will help to reduce unnecessary API calls to [DEV.to](https://dev.to/).
+
+```html
+    <!-- Place devbadge tag wherever you'd like the badge to appear -->
+    <devbadge />
+    <!-- Place script tag before the end of the body tag -->
+    <script>window.onload = function(){typeof findOnDev !== "undefined" && findOnDev()}</script>
+```
+
+---
+
+## Meta Tag Guide
+
+| attributes    | description                   | default                  | required                 | 
+|---------------|-------------------------------|--------------------------|--------------------------|
+| dev:username  | Your DEV.to Username          | N/A                      | true                     |
+
+Example of a meta tag:
+```html
+<meta name="dev:username" content="benjaminjprice" />
+```
+---
+
+## Changelog
+**[RELEASES](https://github.com/BenjaminPrice/dev-social-badge/releases)**
 
 ---
 
