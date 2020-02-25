@@ -1,0 +1,21 @@
+{
+    "name": "dev-social-badge",
+    "version": "0.1.0",
+    "description": "Unofficial Social Badge for the DEV.to Community",
+    "authors": [
+        "Benjamin Price <ben@benprice.dev>"
+      ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BenjaminPrice/dev-social-badge"
+    },
+    "keywords": [
+      "DEV.to",
+      "DEV Community",
+      "The Practical Dev",
+      "badge",
+      "dev",
+      "social"
+    ],
+    "license": "MIT"
+  }
