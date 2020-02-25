@@ -2,6 +2,9 @@
     "name": "dev-social-badge",
     "filename": "dev-social-badge.min.js",
     "description": "Unofficial Social Badge for the DEV.to Community",
+    "authors": [
+        "Benjamin Price <ben@benprice.dev>"
+      ],
     "repository": {
       "type": "git",
       "url": "https://github.com/BenjaminPrice/dev-social-badge"
