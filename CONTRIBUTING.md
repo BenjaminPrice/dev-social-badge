@@ -10,12 +10,8 @@ If you are contributing to the Open Source for the first time, You can check out
 - Push your changes to the branch
 - Create a pull request from your branch to `master` of my repository.
 
-# Development Guide
-- If you are looking to add HTML then checkout `createCard()` function from `card.component.mjs`
-- If you are looking to add CSS then checkout `card.style.mjs`
-
 # First-time Contributors Guide
 - You can checkout the [Issues](https://github.com/BenjaminPrice/dev-social-badge/issues) and select the one that you like (You can comment on issue to let me know that you are working on it.)
-- There are issues with label `Difficulty: Easy` and `Difficulty: Super Easy` which are easier to solve as compare to the other issues. Though if you know JavaScript well you can solve `Difficulty: Medium` and `Difficulty: Hard` issues as well.
+- There are issues with the label `Difficulty: Easy` which are easier to solve compared to the other issues. Though if you know JavaScript well you can solve `Difficulty: Medium` and `Difficulty: Hard` issues as well.
 - Just go through the [Local Setup Guide](#local-setup) to locally setup the project
 - Once you are done making changes you can create a Pull Request to the `master` of this (https://github.com/BenjaminPrice/dev-social-badge) repository.
